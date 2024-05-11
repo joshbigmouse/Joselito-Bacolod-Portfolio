@@ -163,7 +163,7 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 9.5rem;
+  width: 11rem;
   height: 3rem;
   background: var(--main-color);
   border: var(--border);
@@ -173,6 +173,11 @@ body {
   font-weight: 500;
   margin: 0 1rem;
   transition: .5s;
+  white-space: nowrap;
+}
+
+ul li::marker {
+  color: var(--main-color);
 }
 
 .btn:hover {
@@ -247,12 +252,18 @@ body {
   border-radius: 50%;
 }
 
+
+
 .workeduc-content .year {
   color: var(--main-color);
 }
 
 .workeduc-content .year i {
   margin-right: .4rem;
+}
+
+ul {
+  padding-left: 1rem;
 }
 
 .number-page {
